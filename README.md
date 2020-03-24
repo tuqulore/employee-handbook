@@ -7,6 +7,14 @@
 - [モデル就業規則(平成31年3月時点のもの)](https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/zigyonushi/model/index.html)
 - [デンキヤギ株式会社 就業規則](https://github.com/DenkiYagi/EmployeeHandbook)
 
+## 主な特徴
+
+- 労働者の名称を社員としている
+- すべての社員にフレックスタイム制を適用している
+- すべての社員の基本給は時間給として取り扱う
+- 年次有給休暇を一斉付与している
+
+
 ## ライセンス
 
 <p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
