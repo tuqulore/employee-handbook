@@ -4,7 +4,7 @@
 
 本就業規則は主に以下の2点を参考に作成し、[@Takashi-U](https://github.com/Takashi-U)さんのチェックを経て施行しています。
 
-- [モデル就業規則](https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/zigyonushi/model/index.html)
+- [モデル就業規則(平成31年3月時点のもの)](https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/zigyonushi/model/index.html)
 - [デンキヤギ株式会社 就業規則](https://github.com/DenkiYagi/EmployeeHandbook)
 
 ## ライセンス
