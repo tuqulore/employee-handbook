@@ -2,10 +2,12 @@
 
 株式会社ツクロアで運用中の就業規則です。
 
-本就業規則は主に以下の2点を参考に作成し、[@Takashi-U](https://github.com/Takashi-U)さんのチェックを経て施行しています。
+本就業規則は主に以下の2点を参考に作成しました。
 
 - [モデル就業規則(平成31年3月時点のもの)](https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/zigyonushi/model/index.html)
 - [デンキヤギ株式会社 就業規則](https://github.com/DenkiYagi/EmployeeHandbook)
+
+就業規則・各規程のうち、就業規則と賃金規程は[@Takashi-U](https://github.com/Takashi-U)さんのチェックを経て施行しています。
 
 ## 主な特徴
 
