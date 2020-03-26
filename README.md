@@ -16,6 +16,16 @@
 - すべての社員の基本給は時間給として取り扱う
 - 年次有給休暇を一斉付与している
 
+## issueテンプレートの使い方
+
+別途プライベートリポジトリで利用することを想定しています。
+
+導入するにあたってはgit-subtreeなどが使えるかと思います。
+
+```
+$ git remote add employee-handbook git@github.com:tuqulore/employee-handbook.git
+$ git subtree add  --prefix .github --squash employee-handbook master
+```
 
 ## ライセンス
 
