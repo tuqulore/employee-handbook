@@ -1,7 +1,6 @@
 # 株式会社ツクロア 就業規則
 
-株式会社ツクロアで運用中の就業規則です。
-
+株式会社ツクロアで運用中の就業規則です。  
 本就業規則は主に以下の2点を参考に作成しました。
 
 - [モデル就業規則(平成31年3月時点のもの)](https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/zigyonushi/model/index.html)
@@ -19,15 +18,19 @@
 
 ## issueテンプレートの使い方
 
-就業規則・各規程に定めのある手続きをおこなうためのテンプレートです。
-
-別途プライベートリポジトリで利用することを想定しています。
-
-導入するにあたってはgit-subtreeなどが使えるかと思います。
+就業規則・各規程に定めのある手続きをおこなうためのテンプレートです。  
+別途プライベートリポジトリで利用することを想定しています。  
+git-subtreeを使って導入してください。
 
 ```
 $ git remote add employee-handbook git@github.com:tuqulore/employee-handbook.git
-$ git subtree add  --prefix .github --squash employee-handbook master
+$ git subtree add --prefix .github --squash employee-handbook master
+```
+
+導入後は以下のように更新してください。
+
+```
+$ git subtree pull --prefix .github --squash employee-handbook master
 ```
 
 ## ライセンス
