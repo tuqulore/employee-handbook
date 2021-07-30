@@ -1,0 +1,30 @@
+name: 休暇届
+about: 有給休暇、病気休暇等の利用
+title: 休暇届
+labels: help wanted
+body:
+  - type: dropdown
+    id: leave-type
+    attributes:
+      label: 使用する休暇制度
+      options:
+        - 有給休暇
+        - 生理休暇
+        - 慶弔休暇
+        - 病気休暇
+        - 裁判員等のための休暇
+    validations:
+      required: true
+  - type: textarea
+    id: date
+    attributes:
+      label: 日付
+      description: 休暇を適用する日付(期間が明らかである場合は開始日と終了日)を入力してください
+      placeholder: |
+        （例）
+        - 2020/01/01
+        - 2020/01/02
+        - 2020/01/03
+        （例）2020/01/01-2020/01/09
+    validations:
+      required: true
