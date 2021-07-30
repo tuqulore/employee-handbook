@@ -1,0 +1,39 @@
+name: 補助申請
+about: 補助制度の利用
+title: 補助申請
+labels: help wanted
+body:
+  - type: dropdown
+    id: subsidy-type
+    attributes:
+      label: 使用する補助制度
+      options:
+        - 書籍購入補助申請
+        - 機材購入補助申請
+        - 予防接種補助申請
+    validations:
+      required: true
+  - type: input
+    id: subject
+    attributes:
+      label: 対象
+      description: 補助申請する商品名／予防接種の名称を入力してください
+      placeholder: （例）インフルエンザ
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: 日付
+      description: 購入／接種した日付を入力してください
+      placeholder: （例）2020/01/01
+    validations:
+      required: true
+  - type: input
+    id: amount
+    attributes:
+      label: 金額
+      description: 購入／接種にかかった費用を入力してください
+      placeholder: （例）2000円
+    validations:
+      required: true
