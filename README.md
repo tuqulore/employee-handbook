@@ -33,13 +33,13 @@ git-subtreeを使って導入してください。
 
 ```
 $ git remote add employee-handbook git@github.com:tuqulore/employee-handbook.git
-$ git subtree add --prefix .github --squash employee-handbook master
+$ git subtree add --prefix .github --squash employee-handbook develop
 ```
 
 導入後は以下のように更新してください。
 
 ```
-$ git subtree pull --prefix .github --squash employee-handbook master
+$ git subtree pull --prefix .github --squash employee-handbook develop
 ```
 
 ## ライセンス
