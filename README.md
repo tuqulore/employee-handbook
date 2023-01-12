@@ -1,6 +1,13 @@
 # 株式会社ツクロア 就業規則
 
-株式会社ツクロアで運用中の就業規則です。  
+株式会社ツクロアで運用中の就業規則です。
+
+## 注意
+
+[改正施行手順](./UPDATE_WORKFLOW.md)にしたがい、草案の内容を含む場合があります。運用中の規則・規程については、[masterブランチ](https://github.com/tuqulore/employee-handbook/tree/master/)か、[最新のリリース](https://github.com/tuqulore/employee-handbook/releases)を参照してください。
+
+## 参考
+
 本就業規則は主に以下の2点を参考に作成しました。
 
 - [モデル就業規則(平成31年3月時点のもの)](https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/zigyonushi/model/index.html)
@@ -15,6 +22,8 @@
 - すべての社員にフレックスタイム制を適用している
 - すべての社員の基本給は時間給として取り扱う
 - 年次有給休暇を一斉付与している
+- 採用日に年次有給休暇を付与している
+- 電子帳簿保存法対応
 
 ## issueテンプレートの使い方
 
@@ -24,13 +33,13 @@ git-subtreeを使って導入してください。
 
 ```
 $ git remote add employee-handbook git@github.com:tuqulore/employee-handbook.git
-$ git subtree add --prefix .github --squash employee-handbook master
+$ git subtree add --prefix .github --squash employee-handbook develop
 ```
 
 導入後は以下のように更新してください。
 
 ```
-$ git subtree pull --prefix .github --squash employee-handbook master
+$ git subtree pull --prefix .github --squash employee-handbook develop
 ```
 
 ## ライセンス
