@@ -50,9 +50,9 @@
 5. [プルリクエストのレビュー](https://docs.github.com/ja/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews)を受けます
 6. レビューで承認を得たらプルリクエストの作成者が[プルリクエストをマージ](https://docs.github.com/ja/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request)します
 
-### 社員の過半数代表者の選出および意見の聴取
+### 従業員の過半数代表者の選出および意見の聴取
 
-社員の過半数代表者の選出および意見の聴取をおこないます（その手順については本文書では取り扱いません）。意見の反映が必要である場合、改正施行に向けての作業から再度おこないます。
+従業員の過半数代表者の選出および意見の聴取をおこないます（その手順については本文書では取り扱いません）。意見の反映が必要である場合、改正施行に向けての作業から再度おこないます。
 
 ### リリースの作成
 
