@@ -4,7 +4,7 @@
 
 ## 注意
 
-[改正施行手順](./UPDATE_WORKFLOW.md)にしたがい、草案の内容を含む場合があります。運用中の規則・規程については、[最新のリリース](https://github.com/tuqulore/employee-handbook/releases)を参照してください。
+[改正施行手順](./UPDATE_WORKFLOW.md)にしたがい、草案の内容を含む場合がありますが、社内のドキュメントはURIの不変性を重視してmainブランチを参照します。運用中の規則・規程を確認するには、[最新のリリース](https://github.com/tuqulore/employee-handbook/releases/latest)を参照してください。
 
 ## 参考
 
