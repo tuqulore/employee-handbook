@@ -25,9 +25,10 @@
 
 1. `main` ブランチに移動し最新の状態にします `git switch main; git pull origin main`
 2. 改正日と施行日を記すための作業ブランチを作成します `git switch -c <任意のブランチ名>`
-3. 作業ブランチ上で改正した就業規則・各規程の附則に `この規則は、令和＿＿年＿＿月＿＿日に改正し、令和＿＿年＿＿月＿＿日から施行する。` という文言を追加します
+3. 作業ブランチ上で変更のある就業規則・各規程の附則に `この規則は、令和＿＿年＿＿月＿＿日に改正し、令和＿＿年＿＿月＿＿日から施行する。` という文言を追加します
     - 改正日は改正の3\.を実施した日にします
     - 施行日は変更を周知するための期間を設けた日にします
+    - 前回の改正施行からどの就業規則・各規程を変更したのかは `https://github.com/tuqulore/employee-handbook/compare/develop...<前回のリリース>` で確認してください
 4. 作業ブランチをもとに[プルリクエストを作成](https://docs.github.com/ja/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)します
     - ベースブランチを `main` にします
 5. [プルリクエストのレビュー](https://docs.github.com/ja/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews)を受けます
