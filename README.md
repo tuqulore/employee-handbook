@@ -4,7 +4,7 @@
 
 ## 注意
 
-[改正施行手順](./UPDATE_WORKFLOW.md)にしたがい、草案の内容を含む場合があります。運用中の規則・規程については、[masterブランチ](https://github.com/tuqulore/employee-handbook/tree/master/)か、[最新のリリース](https://github.com/tuqulore/employee-handbook/releases)を参照してください。
+[改正施行手順](./UPDATE_WORKFLOW.md)にしたがい、草案の内容を含む場合がありますが、社内のドキュメントはURIの不変性を重視してmainブランチを参照します。運用中の規則・規程を確認するには、[最新のリリース](https://github.com/tuqulore/employee-handbook/releases/latest)を参照してください。
 
 ## 参考
 
@@ -33,13 +33,13 @@ git-subtreeを使って導入してください。
 
 ```
 $ git remote add employee-handbook git@github.com:tuqulore/employee-handbook.git
-$ git subtree add --prefix .github --squash employee-handbook develop
+$ git subtree add --prefix .github --squash employee-handbook main
 ```
 
 導入後は以下のように更新してください。
 
 ```
-$ git subtree pull --prefix .github --squash employee-handbook develop
+$ git subtree pull --prefix .github --squash employee-handbook main
 ```
 
 ## ライセンス
